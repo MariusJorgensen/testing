@@ -13,6 +13,12 @@ function Header() {
         <li>
           <Link to="randomstring">Random String</Link>
         </li>
+        <li>
+          <Link to="form">Form</Link>
+        </li>
+        <li>
+          <Link to="googlelogin">Goolge Login</Link>
+        </li>
       </ul>
     </Wrapper>
   );

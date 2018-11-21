@@ -5,6 +5,8 @@ import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 import Home from "./Home";
 import RandomString from "./RandomString";
+import Form from "./Form";
+import GoogleLogin from "./GoogleLogin"
 
 function Container({ location }) {
   return (
@@ -19,6 +21,8 @@ function Container({ location }) {
             <Switch location={location}>
               <Route exact path="/" component={Home} />
               <Route exact path="/randomstring" component={RandomString} />
+              <Route exact path="/form" component={Form} />
+              <Route exact path="/googlelogin" component={GoogleLogin} />
             </Switch>
           </section>
         </CSSTransition>

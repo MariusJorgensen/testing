@@ -11,7 +11,7 @@ function GLogin() {
   return (
     <Wrapper>
       <GoogleLogin
-        clientId="728464831637-rvkpps67rt751b6bv0pt7sd0vte5fh95.apps.googleusercontent.com"
+        clientId="728464831637-nmo3akc7r88hu8hst13bhc6t87hff4o8.apps.googleusercontent.com"
         buttonText="Login"
         onSuccess={responseGoogle}
         onFailure={responseGoogle}

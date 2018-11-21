@@ -7,6 +7,7 @@ import Home from "./Home";
 import RandomString from "./RandomString";
 import Form from "./Form";
 import GoogleLogin from "./GoogleLogin"
+import YouTube from "./YouTube"
 
 function Container({ location }) {
   return (
@@ -23,6 +24,7 @@ function Container({ location }) {
               <Route exact path="/randomstring" component={RandomString} />
               <Route exact path="/form" component={Form} />
               <Route exact path="/googlelogin" component={GoogleLogin} />
+              <Route exact path="/youtube" component={YouTube} />
             </Switch>
           </section>
         </CSSTransition>

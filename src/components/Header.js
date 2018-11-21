@@ -7,9 +7,6 @@ function Header() {
     <Wrapper>
       <ul>
         <li>
-          <Link to="/testing/">Home</Link>
-        </li>
-        <li>
           <Link to="/randomstring">Random String</Link>
         </li>
       </ul>

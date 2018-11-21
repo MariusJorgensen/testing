@@ -10,7 +10,7 @@ function Header() {
           <Link to="/testing/">Home</Link>
         </li>
         <li>
-          <Link to="/testing/randomstring">Random String</Link>
+          <Link to="/randomstring">Random String</Link>
         </li>
       </ul>
     </Wrapper>

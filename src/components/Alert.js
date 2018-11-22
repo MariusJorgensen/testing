@@ -11,6 +11,7 @@ class AlertClass extends Component  {
           {alert => (
             <Button
               bsStyle="danger"
+              id='the-alert-button'
               onClick={() => {
                 alert.show('OUCH!')
               }}

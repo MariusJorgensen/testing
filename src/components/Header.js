@@ -22,6 +22,12 @@ function Header() {
         <li>
           <Link to="youtube">YouTube</Link>
         </li>
+        <li>
+          <Link to="alert">Alert</Link>
+        </li>
+        <li>
+          <Link to="confirm">Confirm</Link>
+        </li>
       </ul>
     </Wrapper>
   );

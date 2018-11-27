@@ -30,6 +30,7 @@ class Confirm extends Component {
             bsStyle="danger"
             onClick={this.submit}
             bsSize="large"
+            id="confirm-button"
           >
             Confirm dialog
           </Button>

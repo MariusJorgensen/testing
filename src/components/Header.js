@@ -28,6 +28,9 @@ function Header() {
         <li>
           <Link to="confirm">Confirm</Link>
         </li>
+        <li>
+          <Link to="download">Download</Link>
+        </li>
       </ul>
     </Wrapper>
   );

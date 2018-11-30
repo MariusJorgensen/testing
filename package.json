@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://mariusjorgensen.github.io/testing",
   "dependencies": {
+    "filepond": "^3.3.3",
     "gh-pages": "^2.0.1",
     "moment": "^2.22.2",
     "random-string": "^0.2.0",
@@ -15,6 +16,7 @@
     "react-confirm-alert": "^2.0.6",
     "react-dom": "^16.6.3",
     "react-file-download": "^0.3.5",
+    "react-filepond": "^5.0.0",
     "react-google-login": "^4.0.0",
     "react-moment": "^0.8.3",
     "react-router-dom": "^4.3.1",

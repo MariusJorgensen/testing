@@ -17,7 +17,7 @@ function Header() {
           <Link to="form">Form</Link>
         </li>
         <li>
-          <Link to="googlelogin">Goolge Login</Link>
+          <Link to="googlelogin">Google Login</Link>
         </li>
         <li>
           <Link to="youtube">YouTube</Link>
@@ -30,6 +30,9 @@ function Header() {
         </li>
         <li>
           <Link to="download">Download</Link>
+        </li>
+        <li>
+          <Link to="upload">Upload</Link>
         </li>
       </ul>
     </Wrapper>

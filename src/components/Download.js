@@ -6,10 +6,10 @@ class DownloadClass extends Component  {
   render () {
     return (
       <Wrapper>
-        <a download="cat.jpg" href="img/image.jpg" title="ImageName">
+        <a download="cat.jpg" href="img/image.jpg" title="CoolImage">
           <Button
             bsStyle="danger"
-            id='the-alert-button'
+            id='the-download-button'
             bsSize = 'large'
           >
             Download a super cool image

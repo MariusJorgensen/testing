@@ -12,6 +12,7 @@ import Alert from "./Alert"
 import Confirm from "./Confirm"
 import Download from "./Download"
 import Upload from "./Upload"
+import Video from "./Video"
 
 function Container({ location }) {
   return (
@@ -33,6 +34,7 @@ function Container({ location }) {
               <Route exact path="/confirm" component={Confirm} />
               <Route exact path="/download" component={Download} />
               <Route exact path="/upload" component={Upload} />
+              <Route exact path="/video" component={Video} />
             </Switch>
           </section>
         </CSSTransition>

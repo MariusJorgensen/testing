@@ -1,13 +1,25 @@
 import React from "react";
 import styled from "styled-components";
-import { ReactTypeformEmbed } from 'react-typeform-embed';
 
 function Form() {
   return (
     <Wrapper>
-      <section>
-        <ReactTypeformEmbed url={'https://mariusjorgensen.typeform.com/to/puaXff'}/>
-      </section>
+      <form>
+        <div>
+          <label>
+            Name:
+            <input type="text" name="name" />
+          </label>
+          <input type="submit" value="Submit" />
+        </div>
+        <div>
+          <label>
+            Name:
+            <input type="text" name="name" />
+          </label>
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
     </Wrapper>
   );
 }

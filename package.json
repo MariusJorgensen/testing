@@ -2,8 +2,9 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mariusjorgensen.github.io/testing",
+  "homepage": "https://automount.rd.cisco.com/~marjorge/testapp",
   "dependencies": {
+    "ciscospark": "^1.32.23",
     "filepond": "^3.3.3",
     "gh-pages": "^2.0.1",
     "moment": "^2.22.2",
@@ -19,10 +20,11 @@
     "react-filepond": "^5.0.0",
     "react-google-login": "^4.0.0",
     "react-moment": "^0.8.3",
+    "react-player": "^1.9.3",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.1",
+    "react-scripts": "^2.1.8",
     "react-transition-group": "^2.5.0",
-    "react-typeform-embed": "^0.1.6",
+    "react-typeform-embed": "^0.2.0",
     "react-youtube": "^7.8.0",
     "styled-components": "^4.1.1"
   },
@@ -42,5 +44,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "browserify": "^16.2.3"
+  }
 }

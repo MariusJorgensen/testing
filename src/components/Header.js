@@ -34,6 +34,9 @@ function Header() {
         <li>
           <Link to="upload">Upload</Link>
         </li>
+        <li>
+          <Link to="video">Video</Link>
+        </li>
       </ul>
     </Wrapper>
   );

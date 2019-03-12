@@ -37,6 +37,9 @@ function Header() {
         <li>
           <Link to="video">Video</Link>
         </li>
+        <li>
+          <Link to="newtab">NewTab</Link>
+        </li>
       </ul>
     </Wrapper>
   );

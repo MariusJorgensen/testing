@@ -14,6 +14,7 @@ import Download from "./Download"
 import Upload from "./Upload"
 import Video from "./Video"
 import NewTab from "./NewTab"
+import Autofocus from "./Autofocus"
 
 function Container({ location }) {
   return (
@@ -37,6 +38,7 @@ function Container({ location }) {
               <Route exact path="/upload" component={Upload} />
               <Route exact path="/video" component={Video} />
               <Route exact path="/newtab" component={NewTab} />
+              <Route exact path="/autofocus" component={Autofocus} />
             </Switch>
           </section>
         </CSSTransition>

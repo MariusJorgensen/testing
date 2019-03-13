@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import { Alert } from 'react-alert'
 import { Button } from 'react-bootstrap'
 
 class NewTab extends Component  {

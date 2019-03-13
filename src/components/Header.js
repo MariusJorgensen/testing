@@ -40,6 +40,9 @@ function Header() {
         <li>
           <Link to="newtab">NewTab</Link>
         </li>
+        <li>
+          <Link to="autofocus">Autofocus</Link>
+        </li>
       </ul>
     </Wrapper>
   );
